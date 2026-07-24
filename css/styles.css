@@ -1,4 +1,4 @@
-h5{
+/* h5{
     color: darkgoldenrod;
 }
 
@@ -7,4 +7,89 @@ h4{
     color: darkblue;
     background-color: aqua;
     font-size: 20px;
+} */
+
+/* class selectors */
+
+.headling1{
+    color: blue;
+    font-size: 30px;
 }
+
+.headling2{
+    color:white;
+    font-size: 40px;
+}
+
+.headlingbg{
+    background-color: navy;
+}
+
+.headling5{
+    color: pink;
+
+}
+
+/* id selcetor */
+#headling3{
+    color: chocolate;
+    font-size: 30px;
+}
+
+#headling5{
+    background-color: chartreuse;
+}
+
+#abc{
+    color: firebrick;
+    background-color: yellow;
+    font-size: 30px;
+}
+
+
+.t_transform_uppercase{
+    text-transform: uppercase;
+}
+
+.t_transform_lowercase
+{
+    text-transform: lowercase;
+}
+
+.t_transform_capitaliza{
+    text-transform: capitalize;
+}
+
+.t_d_ovreline{
+    text-decoration: overline;
+}
+
+.t_d_undreline{
+    text-decoration: underline;
+}
+
+.t_d_lineThrogh{
+    text-decoration: line-through;
+}
+
+.t_d_lining{
+    
+    text-decoration: underline overline line-through;
+}
+
+.t_d_shadow{
+    font-size: 30px;
+    color: chocolate;
+    text-shadow: 5px 4px 3px gray;
+}
+.t_d_shadow1{
+    font-size: 40px;
+    color: blue;
+    text-shadow: 5px 4px 0px black;
+}
+
+.t_d_shadow2{
+    color: fuchsia;
+    text-shadow: 4px 3px 2px black;
+}
+
