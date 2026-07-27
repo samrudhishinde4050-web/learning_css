@@ -93,3 +93,21 @@ h4{
     text-shadow: 4px 3px 2px black;
 }
 
+.t_indent{
+    text-indent: 120px;
+    color: beige;
+    background-color: navy;
+    font-size: 30px;
+}
+
+.t_letter-space{
+    letter-spacing: 13px;
+}
+
+.t_word_space{
+    word-spacing: 60px;
+}
+
+.t_line_height{
+    line-height: 30px;
+}
