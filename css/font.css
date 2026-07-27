@@ -1,0 +1,30 @@
+.f_family1{
+    font-family: cursive;
+}
+.f_family2{
+    font-family: monospace;
+}
+
+.f_family3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.f_family4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.f_family5{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.b_shadow{
+    box-shadow: 5px 4px 2px gray;
+    width: 400px;
+}
+
+.b_shadow1{
+    box-shadow: 6px 7px 3px palevioletred;
+}
+
+.d_shadow{
+    filter: drop-shadow(7px 10px 2px black);
+    width: 200px;
+}
