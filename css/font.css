@@ -30,7 +30,7 @@
     filter: drop-shadow(7px 10px 2px black);
     width: 200px;
 }
-.d_shadow2 {
+.d_shadow1 {
     filter: drop-shadow(8px 9px 2px gray);
     width: 200px;
 }
@@ -102,6 +102,31 @@
     border-top-right-radius: 150px;
     border-bottom-left-radius: 150px;
     border-bottom-right-radius: 150px;
+}
+
+/* Box Model */
+.box_model1{
+    border: 6px solid brown;
+    padding: 30px;
+
+}
+
+.box_model2{
+    border: 6px solid  brown;
+    padding: 30px;
+    margin: 80px;
+}
+.box_model3{
+    border: 6px solid brown;
+    border-radius: 30px;
+    /* top, right, bottom, left */
+    padding: 40px 70px 40px 70px;
+    margin: 30px 60px 30px 60px;
+}
+.box_model4{
+    border: 6px dotted yellow;
+    padding: 30px 20px 30px 20px;
+    border-radius: 20px 30px 20px 30px;
 }
 
 
