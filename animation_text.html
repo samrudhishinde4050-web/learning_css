@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>animation Text</title>
+        <style>
+        .text_container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: sans-serif;
+            letter-spacing: 5px;
+            font-size: 80px;
+            font-weight: 800;
+            /* perspective us 3D animation */
+            perspective: 100px;
+        }
+        .text_container > b{
+            height: 90px;
+            box-shadow: 0px 10px 5px gray;
+            /* background-color: yellow; */
+            background: linear-gradient(to right, teal,coral,navy);
+            background-clip: text;
+            color: transparent;
+            transform-origin: bottom;
+            animation: getUpDown 5s infinite;
+                        border: 9px double gray;
+
+        }
+        .text_container > b:nth-child(1) {animation-delay: 0s;}
+        .text_container > b:nth-child(2) {animation-delay: 0.23s;}
+        .text_container > b:nth-child(3) {animation-delay: 0.50s;}
+         .text_container > b:nth-child(4) {animation-delay: 0.75s;}
+         .text_container > b:nth-child(5) {animation-delay: 1s;}
+          .text_container > b:nth-child(6) {animation-delay: 1.25s;}
+          .text_container > b:nth-child(7) {animation-delay: 1.50s;}
+          .text_container > b:nth-child(8) {animation-delay: 1.75s;}
+
+          @keyframes getUpDown{
+            from{ transform: rotateX(85deg);}
+            10%,50%{transform: rotateX(0);}
+            60%, to{transform: rotateX(-85deg);}
+          }
+
+
+
+    </style>
+    </head>
+    <body>
+        <div class="text_container">
+            <b>S</b><b>A</b><b>M</b><b>R</b><b>U</b><b>D</b><b>H</b><b>I</b>
+
+        </div>
+
+    </body>
+</html>
