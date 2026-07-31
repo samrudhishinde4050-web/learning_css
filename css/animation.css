@@ -29,3 +29,26 @@
     100%{background-color: green;left: 0px; top: 0px;}
 
 }
+
+
+/* child */
+ul{
+    width: 200px;
+padding: 10px;
+list-style: none;
+font-weight: 700;
+}
+
+li{
+    padding: 10px;
+    border: 2px solid red;
+    margin-bottom: 5px;
+border-radius: 10px;
+
+}
+#b_2{
+    background-color: yellow;
+}
+#b_1{
+    background-color: green;
+}
