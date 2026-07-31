@@ -1,24 +1,26 @@
 #s_animation{
     /* border-radius: 100px 100px 100px 100px; */
-    width: 150px;
-    height: 150px;
-    /* background-color: yellow; */
-    background-image: url(../image/banner.jpg);
+    width: 300px;
+    height: 200px;
+    background-color: yellow;
+    /* background-image: url(../image/1.jpg); */
     position: relative;
+    border: 9px double brown;
+    align-content: center;
 
     /* animation property */
     animation-name: movingBox;
 
     /* -webkit-animation-name: movingBox; use for iphone display */
     -webkit-animation-name: movingBox;
-    animation-duration: 15s;
+    animation-duration: 10s;
 
     /* count infinte */
     animation-iteration-count: 2;
 
     /* animation-direction: alternate; reverse */
     animation-direction: reverse;
-    animation-delay: 5s;
+    animation-delay: 1s;
 
 }
 @keyframes movingBox{
@@ -28,8 +30,16 @@
     75%{background-color: brown;left: 0px; top: 300px;}
     100%{background-color: green;left: 0px; top: 0px;}
 
-}
+ }
 
+ /* @keyframes movingBox{
+    0%{background-image: url(../image/1.jpg);left: 0px; top:0px}
+    25%{background-image: url(../image/6.jpg);left: 200px; top: 0px;}
+    50%{background-image: url(../image/7.jpg);left: 300px; top: 200px;}
+    75%{background-image: url(../image/8.jpg);left: 0px; top: 200px;}
+    100%{background-image: url(../image/9.jpg);left: 0px; top: 0px;}
+ } */
+  
 
 /* child */
 ul{
