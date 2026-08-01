@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .linear{
+            
+            height: 700px;
+            background: linear-gradient(Violet,Indigo,Blue,Green,Yellow,Orange, Red);
+        }
+        h1{
+            color: black;
+            text-align: center;
+            padding-top: 100px;
+        }
+        /* .radial{
+            height: 600px;
+            background: radial-gradient(circle at center,left top,black,red,white,Yellow);
+        } */
+        .image{
+           display: block;
+           width: 300px;
+           height: 300px;
+           border-radius: 50%;
+           padding-left: 200px;
+           padding-right: 200px;
+        }
+        .conic{
+            height: 300px;
+            background: conic-gradient(from 90deg,
+            red,orange,yellow,green,blue, indigo,violet);
+
+
+        }
+        .donut{
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            background: conic-gradient(red,yellow,green,blue);
+            mask: radial-gradient(circle 60px,transparent 60px,black 41px);
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="donut"></div>
+    <h1>Conic</h1>
+    <div class="conic">
+    </div><hr>
+
+    <h1>Linear</h1>
+    <div class="linear">
+        <h1>I Love Sunset</h1>
+        <img class="image" src="image/nature2.avif" alt="">
+    </div>
+</body>
+</html>
